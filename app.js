@@ -1,9 +1,10 @@
+//querySelector：指定されたCSSセレクタに一致する最初の要素を取得する
+
 const song = document.querySelector('.song');
 const play = document.querySelector('.play');
 const replay = document.querySelector('.replay');
-const outline = document.querySelector('moving-outline circle');
+const outline = document.querySelector('.moving-outline circle');
 const video = document.querySelector('.vid-container video');
-
 //音楽
 const sounds = document.querySelectorAll('.sound-picker button');
 //時間表示
@@ -29,7 +30,7 @@ sounds.forEach((sound) => {
 });
 
 //音楽の再生
-play.addEventListener('click', () => {
+play.addEventListener('click', function () {
   checkPlaying(song);
 });
 
