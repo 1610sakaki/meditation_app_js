@@ -29,18 +29,7 @@
     transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
 }
-.time-select{
-    /* background: lightblue; */
-}
 
-.sound-picker{
-
-    /* background-color: lightgreen; */
-}
-
-.player-container{
-    /* background-color: lightcoral; */
-}
 .time-select button:hover {
   background: white;
   color: black;
